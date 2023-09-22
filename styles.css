@@ -39,6 +39,8 @@ p {
     display: flex;
     height: 50px;
     align-items: center;
+    position: fixed;
+    z-index: 1;
 }
 
 .header-card {
