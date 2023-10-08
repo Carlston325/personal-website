@@ -10,13 +10,13 @@ for (var i = 0; i < numberOfButtons; i++) {
 
 function buttonHightlight(btnKey) {
     var activeButton = document.querySelector("." + btnKey);
-    activeButton.classList.add("pressed");
+    activeButton.classList.add("btnHighlight");
 
     for (var i = 0; i < numberOfButtons; i++) {
         document.querySelectorAll(".btn")[i].addEventListener("mouseleave", function () {
     
             var activeButton = document.querySelector("." + btnKey);
-            activeButton.classList.remove("pressed");
+            activeButton.classList.remove("btnHighlight");
         });
     }
 }
