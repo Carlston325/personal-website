@@ -281,11 +281,6 @@ p {
     color: #d8b844a8;
 }
 
-.pressed {
-    color: #52525293;
-    opacity: 0.5;
-}
-
 @media (max-width: 850px) {
     /* Body */
     body {
@@ -536,5 +531,11 @@ p {
         text-transform: uppercase;
         background-color: #c2a84cb4;
     }
+}
+
+.btnHighlight  {
+    border: 2px rgb(255, 255, 255) solid !important;
+    background-color: #000000d2 !important;
+    color: #e6bc25 !important; 
 }
 
