@@ -66,6 +66,7 @@ p{
 }
 
 .header-card>a .btn{
+    width:100%;
     color:#B69932;
     font-size:14px;
     background-color:#ffeba200;
